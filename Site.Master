@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Doctor Appointment Scheduling</title>
+    <link href="media/layout.css" rel="stylesheet" type="text/css" />
+    <link href='media/custom.css' type="text/css" rel="stylesheet" /> 
+    <script src="js/daypilot-modal-3.10.1.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div class="header">
+            <h1><a href='https://code.daypilot.org/55027/asp.net-doctor-appointment-scheduling'>Doctor Appointment Scheduling</a></h1>
+      
+        </div>
+        <div class="main">
+            <div class="space">
+               <%-- <a href="Default.aspx">Public</a>
+                |
+                <a href="Doctor.aspx">Doctor</a>
+                |
+                <a href="Manager.aspx">Admin</a>--%>
+
+                 <a href="Startpage.aspx">Logout</a>
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+﻿
+#DayPilotCalendar1 .calendar_default_event_bar, #DayPilotCalendar1 .calendar_default_event_bar_inner {
+    width: 10px;
+}
+
+#DayPilotCalendar1 .calendar_default_event_inner {
+    padding-left: 12px;
+}
+
+.scheduler_default_matrix_vertical_break {
+    background-color: #eee !important;
+}
